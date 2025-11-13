@@ -12,8 +12,12 @@ Version: 1.0
 
 :root {
   --color-dark: #212836;
-  --color-main: #4574BB;
+  --color-dark01: #A9B7C8;
+  --color-main: #1A3458;
   --color-sub: #4F74B6;
+  --color-sub01: #0F2F4F;
+  --color-sub02: #8C9AAE;
+  --color-sub03: #1C2A44;
   --color-small: #dd2200;
 }
 
@@ -51,6 +55,8 @@ a.nolink:hover {
 /*------------------------------------------------------------
 	デフォルトスタイル
 ------------------------------------------------------------*/
+
+
 html,
 body,
 div,
@@ -241,6 +247,14 @@ body {
   text-size-adjust: none;
   -webkit-text-size-adjust: none;
   background-color: #FFF;
+  position: relative;
+}
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: url(../images/common/bg_img03.jpg) no-repeat center / cover;
+  z-index: -1;
 }
 
 body.fixed {
@@ -349,7 +363,7 @@ a[href^="tel:"] {
   font-weight: 500;
   width: 194px;
   text-align: center;
-  background: var(--color-dark);
+  background: var(--color-dark01);
   letter-spacing: 0.06em;
   cursor: pointer;
 }
@@ -423,7 +437,7 @@ a[href^="tel:"] {
   right: 0;
   top: 83px;
   width: 550px;
-  background: #7A9CD0;
+  background: var(--color-main);
   z-index: 1000;
   height: calc(100% - 83px);
   overflow-y: auto;
@@ -635,7 +649,7 @@ a[href^="tel:"] {
 ------------------------------------------------------------*/
 #gFooter {
   padding: 30px 0;
-  background-color: var(--color-dark);
+  background-color: var(--color-sub03);
   color: #fff;
 }
 
@@ -684,7 +698,7 @@ a[href^="tel:"] {
 
 .pageTop a {
   display: inline-block;
-  background: var(--color-dark);
+  background: var(--color-dark01);
   cursor: pointer;
 }
 
@@ -1487,11 +1501,11 @@ a[href^="tel:"] {
   margin-bottom: -207px;
 }
 
-.indexPage .mainVisual {
+/*.indexPage .mainVisual {
   background: url(../images/index/bg_img01.png) no-repeat right bottom / 92.4% 100%;
   padding-bottom: 83px;
   position: relative;
-}
+}*/
 
 .indexPage .mainVisual .mainImg {
   padding-right: 83px;
@@ -2522,7 +2536,7 @@ a[href^="tel:"] {
 /*--- 1日のスケジュール ---*/
 .recruitPage .oneDay {
   padding: 145px 0 240px;
-  background: rgba(184, 204, 237, 0.69);
+ /* background: rgba(184, 204, 237, 0.69);*/
 }
 
 .recruitPage .oneDay h3 {
@@ -2671,7 +2685,7 @@ a[href^="tel:"] {
 
 .recruitPage .companySec {
   padding: 202px 0 0;
-  background-color: #fff;
+  /*background-color: #fff;*/
 }
 
 .recruitPage .companySec .comImgBox {
@@ -3882,7 +3896,7 @@ a[href^="tel:"] {
 }
 
 
-.indexPage::after {
+/*.indexPage::after {
   content: "";
   width: 100%;
   height: 100%;
@@ -3892,9 +3906,9 @@ a[href^="tel:"] {
   position: absolute;
   background: url(../images/common/bg_img01.png) repeat-y center top 697px / 100% 4142px;
   z-index: -2;
-}
+}*/
 
-.recruitPage::after {
+/*.recruitPage::after {
   content: "";
   width: 100%;
   height: 100%;
@@ -3904,7 +3918,7 @@ a[href^="tel:"] {
   position: absolute;
   background: url(../images/common/bg_img02.png) repeat-y left top / 100% 3859px;
   z-index: -2;
-}
+}*/
 
 @media all and (max-width: 896px) {
   .recruitPage::after {

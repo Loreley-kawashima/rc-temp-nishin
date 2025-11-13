@@ -139,13 +139,13 @@ const Page = ({ location, pageContext }) => {
               <div className="infoVideo">
 
                 {/* 画像の場合はこちらのコードを使用 */}
-                <img src={interviewPhoto} alt="代表インタビュー" />
+                {/*<img src={interviewPhoto} alt="代表インタビュー" />*/}
 
                 {/* 動画の場合はこちらのコードを使用 */}
-                {/* <video src={interviewMovie} controls></video> */}
+                 <video src={interviewMovie} controls></video> 
 
               </div>
-              <p className="name"><span className="small">代表取締役</span>名字 名前</p>
+              <p className="name"><span className="small">代表取締役</span>二瓶 亘広</p>
             </div>
 
             {/* 従業員インタビュー */}

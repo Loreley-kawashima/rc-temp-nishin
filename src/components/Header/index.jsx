@@ -60,7 +60,7 @@ const Component = () => {
                 </span>
               </Scroll>
               :
-              <Link to="/" target="_blank">
+              <Link to="https://www.nishinkougyou0401.com/" target="_blank">
                 <span className="info">
                   公式サイト
                 </span>
