@@ -974,20 +974,24 @@ a[href^="tel:"] {
 }
 
 .headLine04 .en {
-  color: #FFFFFF;
+  color: #C5C9CE;
   display: block;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 8.8rem;
   line-height: 1;
   letter-spacing: 0.06em;
+  z-index: 1;
+  position: relative;
 }
 
 .headLine04 .jp {
   margin-top: -40px;
   display: block;
   color: var(--color-main);
-  font-size: 2.4rem;
+  font-size: 2.6rem;
   letter-spacing: 0.06em;
+  position: relative;
+  z-index: 2;
 }
 
 .comTtlBox .title {
@@ -1346,7 +1350,7 @@ a[href^="tel:"] {
 
 .comImgBox .textBox h4 {
   margin-bottom: 10px;
-  color: var(--color-sub);
+  color: var(--color-sub01);
   font-size: 2rem;
   font-weight: 700;
   letter-spacing: 0.06em;
@@ -1748,6 +1752,8 @@ a[href^="tel:"] {
 
 .indexPage .aboutSec {
   padding-bottom: 98px;
+  padding-top: 40px;
+
 }
 
 .indexPage .aboutSec .aboutBox {
@@ -1808,8 +1814,7 @@ a[href^="tel:"] {
 }
 
 .indexPage .jobSec .headLine04 .en {
-  opacity: 0.1;
-  color: var(--color-main);
+  color: #C5C9CE;
 }
 
 .indexPage .jobSec .comTtlBox {
@@ -2124,7 +2129,7 @@ a[href^="tel:"] {
 
 
   .indexPage .jobSec .headLine04 .en {
-    color: #fff;
+    color: #C5C9CE;
     opacity: 1;
   }
 
@@ -2306,6 +2311,7 @@ a[href^="tel:"] {
 
 .recruitPage .recruitSec {
   padding: 133px 0 169px;
+  background-color: #edeef0;
 }
 
 .recruitPage .recruitSec .innerBox {
@@ -2366,6 +2372,7 @@ a[href^="tel:"] {
 
 /*--- ポイント ---*/
 .recruitPage .pointSec {
+  padding-top: 60px;
   padding-bottom: 120px;
 }
 
@@ -2399,7 +2406,7 @@ a[href^="tel:"] {
 }
 
 .recruitPage .pointSec .pointBox dl dt {
-  color: var(--color-sub);
+  color: var(--color-main);
   font-size: 2.4rem;
   font-weight: 600;
   padding: 0 0 25px;
@@ -2480,7 +2487,7 @@ a[href^="tel:"] {
   font-size: 2rem;
   font-weight: 600;
   padding: 0 0 15px;
-  color: var(--color-sub);
+  color: var(--color-sub01);
 }
 
 .recruitPage .businessSec .businessBox dl dd {
@@ -2501,7 +2508,7 @@ a[href^="tel:"] {
 /*--- 福利厚生 ---*/
 .recruitPage .welfareSec {
   padding: 120px 0;
-  background: #EDF4FA;
+  /*background: #EDF4FA;*/
 }
 
 .recruitPage .welfareSec ul {
@@ -2529,6 +2536,7 @@ a[href^="tel:"] {
   font-size: 2rem;
   font-weight: 600;
   padding: 45px 0 0;
+  color: var(--color-sub01);
 }
 
 .recruitPage .welfareSec ul>li p small {
@@ -2687,8 +2695,8 @@ a[href^="tel:"] {
 }
 
 .recruitPage .companySec {
-  padding: 202px 0 0;
-  /*background-color: #fff;*/
+  padding: 130px 0 0;
+  background-color: #edeef0;
 }
 
 .recruitPage .companySec .comImgBox {
@@ -2813,10 +2821,10 @@ a[href^="tel:"] {
   }
 
   .recruitPage .recruitSec,
-  .recruitPage .interviewSec,
+  /*.recruitPage .interviewSec,*/
   .recruitPage .companySec {
     position: relative;
-    background-color: #EDF4FA;
+    background-color: #edeef0;
     z-index: 1;
   }
 
@@ -2907,7 +2915,7 @@ a[href^="tel:"] {
   /*--- ポイント ---*/
   .recruitPage .pointSec {
     padding: 62px 0;
-    background: #EDF4FA;
+    /*background: #EDF4FA;*/
   }
 
   .recruitPage .pointSec .pointBox {
