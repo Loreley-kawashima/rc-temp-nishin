@@ -1501,11 +1501,11 @@ a[href^="tel:"] {
   margin-bottom: -207px;
 }
 
-/*.indexPage .mainVisual {
+.indexPage .mainVisual {
   background: url(../images/index/bg_img01.png) no-repeat right bottom / 92.4% 100%;
   padding-bottom: 83px;
   position: relative;
-}*/
+}
 
 .indexPage .mainVisual .mainImg {
   padding-right: 83px;
