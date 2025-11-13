@@ -31,7 +31,7 @@ const Component = ({ menuIsOpen }) => {
           </li>
         ) : null}
         <li className="blank">
-          <a href="/" target="_blank">
+          <a href="https://www.nishinkougyou0401.com/" target="_blank">
             企業公式サイト
           </a>
         </li>

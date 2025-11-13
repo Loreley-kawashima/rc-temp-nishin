@@ -12,9 +12,9 @@ Version: 1.0
 
 :root {
   --color-dark: #212836;
-  --color-dark01: #A9B7C8;
+  --color-dark01: #C5C9CE;
   --color-main: #1A3458;
-  --color-sub: #4F74B6;
+  --color-sub: #A9B7C8;
   --color-sub01: #0F2F4F;
   --color-sub02: #8C9AAE;
   --color-sub03: #1C2A44;
@@ -1423,7 +1423,7 @@ a[href^="tel:"] {
 .comMore a {
   width: 100%;
   height: 100%;
-  background-color: var(--color-dark);
+  background-color: var(--color-sub03);
   color: #fff;
   position: relative;
   display: flex;
@@ -1459,7 +1459,8 @@ a[href^="tel:"] {
   width: 0;
   left: auto;
   right: 0;
-  background-color: #d0e3fd;
+  background-color: var(--color-sub);
+
   transition-duration: 0.5s;
   transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
   -ms-transition-duration: 0.5s;
@@ -1479,7 +1480,7 @@ a[href^="tel:"] {
   }
 
   .comMore a:hover {
-    color: var(--color-dark);
+   color: var(--color-main);
   }
 
   .comMore a:hover::before {
@@ -1854,7 +1855,7 @@ a[href^="tel:"] {
 }
 
 .indexPage .jobSec .innerBox .textBox .jobTagBox span {
-  background: #777777;
+  background: var(--color-sub02);
   color: #FFFFFF;
   margin-right: 5px;
   padding: 3px 20px;
@@ -1994,7 +1995,7 @@ a[href^="tel:"] {
 
   .indexPage .interviewSec {
     padding: 65px 0 0;
-    background: #EDF4FA;
+    /*background: #EDF4FA;*/
   }
 
   .indexPage .interviewSec .listUl li {
@@ -2052,11 +2053,12 @@ a[href^="tel:"] {
   .indexPage .aboutSec {
     margin-bottom: 0;
     padding: 0;
-    background: #EDF4FA;
+    /*background: #EDF4FA;*/
   }
 
   .indexPage .aboutSec .aboutBox {
     margin-bottom: 0;
+    padding-top: 50px;
     padding-bottom: 50px;
     height: auto;
     display: block;
@@ -2089,12 +2091,12 @@ a[href^="tel:"] {
 
   .indexPage .jobSec {
     padding: 60px 0 52px;
-    background: #EDF4FA;
+    /*background: #EDF4FA;*/
     position: relative;
     z-index: 1;
   }
 
-  .indexPage .jobSec:before {
+  /*.indexPage .jobSec:before {
     position: absolute;
     content: "";
     width: 262px;
@@ -2105,9 +2107,9 @@ a[href^="tel:"] {
     background: #dce9f5;
     clip-path: polygon(100% 0, 0 0, 100% 100%);
     z-index: -1;
-  }
+  }*/
 
-  .indexPage .jobSec:after {
+  /*.indexPage .jobSec:after {
     position: absolute;
     content: "";
     width: 262px;
@@ -2118,7 +2120,7 @@ a[href^="tel:"] {
     background: #dce9f5;
     clip-path: polygon(100% 100%, 0 0, 0 100%);
     z-index: -1;
-  }
+  }*/
 
 
   .indexPage .jobSec .headLine04 .en {
@@ -2351,8 +2353,9 @@ a[href^="tel:"] {
 
 .recruitPage .recruitSec .innerBox .textBox td span {
   display: inline-block;
-  color: var(--color-main);
-  border: 1px solid var(--color-main);
+  color: #FFF;
+  border: 1px solid var(--color-dark01);
+  background-color: var(--color-dark01);
   padding: 0 20px;
 }
 
@@ -2817,7 +2820,7 @@ a[href^="tel:"] {
     z-index: 1;
   }
 
-  .recruitPage .recruitSec:before,
+  /*.recruitPage .recruitSec:before,
   .recruitPage .interviewSec:before,
   .recruitPage .companySec:before {
     position: absolute;
@@ -2830,9 +2833,9 @@ a[href^="tel:"] {
     background: #dce9f5;
     clip-path: polygon(100% 0, 0 0, 100% 100%);
     z-index: -1;
-  }
+  }*/
 
-  .recruitPage .recruitSec:after,
+  /*.recruitPage .recruitSec:after,
   .recruitPage .interviewSec:after,
   .recruitPage .companySec:after {
     position: absolute;
@@ -2845,7 +2848,7 @@ a[href^="tel:"] {
     background: #dce9f5;
     clip-path: polygon(100% 100%, 0 0, 0 100%);
     z-index: -1;
-  }
+  }*/
 
   .recruitPage .recruitSec {
     padding: 70px 0 53px;
@@ -3246,7 +3249,7 @@ a[href^="tel:"] {
   justify-content: center;
   font-size: 1.4rem;
   font-weight: 500;
-  background: var(--color-dark);
+  background: var(--color-main);
   text-align: center;
 }
 
@@ -3441,8 +3444,8 @@ a[href^="tel:"] {
 }
 
 .contactPage .submit li.disabled .info01 {
-  background: #CECECE;
-  border-color: #CECECE;
+  background: var(--color-sub03);
+  border-color: var(--color-sub03);
 }
 
 .contactPage .submit li.disabled .info01:after {
