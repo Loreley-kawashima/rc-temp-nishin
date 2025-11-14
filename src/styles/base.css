@@ -2311,7 +2311,7 @@ a[href^="tel:"] {
 
 .recruitPage .recruitSec {
   padding: 133px 0 169px;
-  background-color: #edeef0;
+  background-color: #edeef085;
 }
 
 .recruitPage .recruitSec .innerBox {
@@ -2360,8 +2360,8 @@ a[href^="tel:"] {
 .recruitPage .recruitSec .innerBox .textBox td span {
   display: inline-block;
   color: #FFF;
-  border: 1px solid var(--color-dark01);
-  background-color: var(--color-dark01);
+  border: 1px solid var(--color-main);
+  background-color: var(--color-main);
   padding: 0 20px;
 }
 
@@ -2461,7 +2461,7 @@ a[href^="tel:"] {
 .recruitPage .businessSec {
   position: relative;
   padding: 120px 0;
-  background: #FFFFFF;
+  background: #FFFFFF85;
 }
 
 .recruitPage .businessSec .businessBox {
@@ -2696,7 +2696,7 @@ a[href^="tel:"] {
 
 .recruitPage .companySec {
   padding: 130px 0 0;
-  background-color: #edeef0;
+  background-color: #edeef085;
 }
 
 .recruitPage .companySec .comImgBox {
@@ -2824,7 +2824,7 @@ a[href^="tel:"] {
   /*.recruitPage .interviewSec,*/
   .recruitPage .companySec {
     position: relative;
-    background-color: #edeef0;
+    background-color: #edeef090;
     z-index: 1;
   }
 
