@@ -250,10 +250,16 @@ body {
   position: relative;
 }
 body::before {
-  content: "";
+  /*content: "";
   position: fixed;
   inset: 0;
   background: url(../images/common/bg_img03.jpg) no-repeat center / cover;
+  z-index: -1;*/
+    content: "";
+  position: fixed;
+  inset: 0;
+  background: url('../images/common/bg_img03.jpg') center top no-repeat;
+  background-size: 100% auto;
   z-index: -1;
 }
 
