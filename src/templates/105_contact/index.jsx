@@ -7,7 +7,7 @@ import ContactForm from "/src/components/ContactForm"
 const Page = ({ location, pageContext }) => {
   return (
     <Layout>
-      <div className="pageTitle">
+      <div className="pageTitle Entry">
         <h2 className="headLine01">
           <span className="en">Entry Form</span>
           <span className="jp">エントリーフォーム</span>
