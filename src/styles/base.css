@@ -2232,6 +2232,11 @@ color: #fff;
 /*------------------------------------------------------------
 	recruitPage
 ------------------------------------------------------------*/
+.recruitPage .recruitSec .headLine06
+{
+ color: var(--color-main);
+}
+
 .recruitPage {
   margin-bottom: -207px;
 }
@@ -2493,6 +2498,11 @@ color: #fff;
 }
 
 /*--- 業務内容 ---*/
+.recruitPage .businessSec .headLine06
+{
+  color: var(--color-main);
+}
+
 .recruitPage .businessSec {
   position: relative;
   padding: 120px 0;
